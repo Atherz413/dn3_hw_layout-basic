@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    /* border: 1px solid; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+}
+
+.page {
+    padding: 0 0 24px 0;
+    background: #f1f5f9;
+}
+
+.container {
+    max-width: 520px;
+    margin-inline: auto;
+    padding: 0 16px;
+}
+
+.hero {
+    background: white;
+    padding: 28px 0 20px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.page-title{
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 6px 0;
+}
+
+.page-sub {
+    color: #64758b;
+    text-align: center;
+    
+    margin: 0;
+    font-size: 13px;
+}
+
+.content {
+    max-width: 520px;
+    margin-inline: auto;
+    padding: 16px;
+}
+
+.chapter {
+    margin-bottom: 12px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+.chapter-head {
+    position: sticky;
+    background: #2663eb;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 10px 16px;
+}
+
+.chapter-body {
+    color: #334156;
+    font-size: 14px;
+    margin: 0px;
+
+    padding: 14px 16px;
+    line-height: 1.8;
+}
